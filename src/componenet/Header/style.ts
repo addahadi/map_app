@@ -26,6 +26,9 @@ const useStyles = makeStyles()((theme) => {
         marginLeft: theme.spacing(3),
         width: '300px',
       },
+      [theme.breakpoints.down(600)]:{
+        width:"300px"
+      }
     },
     searchIcon: {
       padding: theme.spacing(0, 2),

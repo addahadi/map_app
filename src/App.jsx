@@ -31,6 +31,15 @@ function App() {
 
   },[rating])
   useEffect(() => {
+    const x = 10;
+    const y = 15; 
+    let z = 20
+    if(x == y){
+      console.log("equal")
+    }
+    else {
+      z = x + y;
+    }
 
     fetchUKCities().then((data)=>{
 

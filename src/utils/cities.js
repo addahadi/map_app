@@ -1,6 +1,6 @@
 async function fetchUKCities() {
     const username = 'addahadi'; // Replace with your GeoNames username
-    const url = `http://api.geonames.org/searchJSON?country=GB&featureClass=P&maxRows=10&username=${username}`;
+    const url = `https://api.geonames.org/searchJSON?country=GB&featureClass=P&maxRows=100&username=${username}`;
 
     try {
         const response = await fetch(url);
